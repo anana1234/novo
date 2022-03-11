@@ -1,0 +1,38 @@
+class xyz
+{
+using namespace std;
+
+public static void main(String args[])
+{
+float a, b, c, x1, x2, diskriminanta, realanDeo, imaginaranDeo;
+cout << "Unesite koeficijente a, b i c: ";
+cin >> a >> b >> c;
+diskrminanta = b*b - 4*a*c;
+
+if (diskrminanta > 0) {
+x1 = (-b + Math.sqrt(diskriminanta)) / (2*a);
+x2 = (-b - Math.sqrt(diskriminanta)) / (2*a);
+cout << "Resenja su realna i razlicita." << endl;
+cout << "x1 = " << x1 << endl;
+cout << "x2 = " << x2 << endl;
+}
+
+else
+if (diskriminanta == 0) {
+cout << "Resenja su realna i jednaka." << endl;
+x1 = (-b +Math.sqrt(diskriminanta)) / (2*a);
+cout << "x1 = x2 = " << x1 << endl;
+}
+
+else {
+realanDio = -b/(2*a);
+imaginaranDeo = Math.sqrt(-diskriminanta)/(2*a);
+cout << "Resenja su kompleksna i razlicita." << endl;
+cout << "x1 = " << realanDeo << "+" << imaginaranDeo << "i" << endl;
+cout << "x2 = " << realanDeo << "-" << imaginaranDeo << "i" <<endl;
+}
+
+}
+m:
+
+}
